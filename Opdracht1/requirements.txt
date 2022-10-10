@@ -1,0 +1,8 @@
+appdirs==1.4.4
+hashcat-beta==5.1.0.post4
+hashcrack==0.9
+hashID==3.1.4
+prettytable==3.4.1
+prompt-toolkit==3.0.31
+scapy==2.4.5
+wcwidth==0.2.5
