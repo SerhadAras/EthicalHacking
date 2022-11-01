@@ -153,7 +153,6 @@ def packet_callback(packet):
     print(packet.show())
     logger.info("Output of pcap sniffing: " + str(packet.show()))
 
-# make function that confirms if host has smtp packets with scapy library
 
 if __name__ == '__main__':
     main()
