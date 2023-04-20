@@ -39,7 +39,7 @@ def tcp_scan():
             scanner.connect((ip, port))
             scanner.close()
             with print_lock:
-                print(Fore.GREEN + f"Port {port} is open")
+                print(Fore.GREEN + f"Portt {port} is open")
                 logger.info("Output of TCP scan: " +  f"Port {port} of host {ip} is open")
 
         except:
